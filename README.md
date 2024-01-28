@@ -1,1 +1,0 @@
-# MinkyunSeo.github.io
