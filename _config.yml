@@ -9,7 +9,7 @@ version: 2
 name: Minkyun Seo
 title: Undergraduate Researcher
 email: funboy0804@snu.ac.kr
-# website: www.github.com/sproogen/resume-theme
+website: minkyunseo.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -108,14 +108,14 @@ content:
           https://sjsh.sen.hs.kr/
         description: |
           <div style="text-align: right; margin-top: -110px;" class="hidden-xs hidden-sm">
-            <img src="images/sjsh_logo.png" alt="SJSH logo" height="85"/> 
+            <img src="images/sjsh_logo.png" alt="SJSH logo" height="85"/>
           </div>
 
   - title: Honors & awards # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top
-        title: 1st place at SNU Creative Design Fair
+        title: Grand prize at SNU Creative Design Fair
         caption: 2023
         sub_title: Issued by Seoul National University
         description: | # this will include new lines to allow paragraphs
@@ -133,25 +133,77 @@ content:
         description: | # this will include new lines to allow paragraphs
           Initially received partial funding, full-ride since 2020.
 
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Avatar Texture Enhancement via 3D Patch-wise SSIM Loss
+        link: github.com/MinkyunSeo/Avatar-Texture-Enhancement
+        # link_text: Project Website
+        additional_links:
+          - title:  MinkyunSeo/Avatar-Texture-Enhancement
+            icon: fab fa-github
+            url: github.com/MinkyunSeo/Avatar-Texture-Enhancement
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Proposed a novel training scheme for texture enhancement of 3D avatars and suggested quantitative evaluation metrics.
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center;">
+            <img src="images/avatar/summary_all.png" width="40%"> <br> <br>
+          </div>
+          <br>
+      - layout: top-middle
+        title: PlayEye:Toy for Preventing Child Myopia
+        link: github.com/SNU-EyeFi/PlayEye
+        # link_text: Project Website
+        additional_links:
+          - title:  SNU-EyeFi/PlayEye
+            icon: fab fa-github
+            url: github.com/SNU-EyeFi/PlayEye
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          PlayEye won grand prize at SNU Creative Design Fair
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center;">
+            <img src="images/playeye/product.png" width="50%"> <br> <br>
+          </div>
+          <br>
+      - layout: top-middle
+        title: YOCO:You Only Cook Once
+        link: github.com/SNU-YOCO/YOCO
+        # link_text: Project Website
+        additional_links:
+          - title:  SNU-YOCO/YOCO
+            icon: fab fa-github
+            url: github.com/SNU-YOCO/YOCO
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          YOCO is a cooking AI based on the Unbiased teacher v2 network. It assists users in cooking by predicting the doneness of ingredients. <br>
+          YOCO won 2nd place at SNU Ambient AI Competition.
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center;">
+            <img src="https://user-images.githubusercontent.com/43427380/222368809-683b0c2e-0aca-4f7e-ac1e-eb8eef6e51d1.png" width="60%">
+          </div>
 
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          <table style="width: 60%; margin-left:auto; margin-right:auto; border-collapse: collapse;">
+            <tr style="padding: 0;">
+              <td colspan="3" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/pancake_raw.gif" width="140px"></td>
+              <td colspan="3" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/egg_cooked.gif" width="140px"></td>
+              <td colspan="4" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_overcooked.gif" width="180px"></td>
+              <td colspan="4" rowspan="2" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/full.gif" width="260px"></td>
+            </tr>
+            <tr style="padding: 0;">
+              <td colspan="5" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_raw.gif" width="240px"></td>
+              <td colspan="5" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_cooked.gif" width="240px"></td>
+            </tr>
+          </table>
+
 
   # - title: A Little More About Me
   #   layout: text
