@@ -148,10 +148,14 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Proposed a novel training scheme for texture enhancement of 3D avatars and suggested quantitative evaluation metrics.
+          Project at SNU graduate course "Deep Learning: A Statistical Perspective"
         description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center; margin-bottom: 0;">
+            <img src="images/avatar/patch_sampling.png" width="40%">
+            <img src="images/avatar/PATD_visualization.png" width="30%"> <br>
+          </div>
           <div style="text-align: center;">
-            <img src="images/avatar/summary_all.png" width="40%"> <br> <br>
+            <img src="images/avatar/summary_all.png" width="40%"> <br>
           </div>
           <br>
       - layout: top-middle
