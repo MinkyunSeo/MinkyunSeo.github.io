@@ -151,7 +151,7 @@ content:
           Project at SNU graduate course "Deep Learning: A Statistical Perspective"
         description: | # this will include new lines to allow paragraphs
           <div style="text-align: center; margin-bottom: 0;">
-            <img src="images/avatar/patch_sampling.png" width="40%">
+            <img src="images/avatar/patch_sampling.png" width="50%">
             <img src="images/avatar/PATD_visualization.png" width="30%"> <br>
           </div>
           <div style="text-align: center;">
