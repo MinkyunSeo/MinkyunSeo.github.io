@@ -207,6 +207,27 @@ content:
               <td colspan="5" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_cooked.gif" width="240px"></td>
             </tr>
           </table>
+      - layout: top-middle
+        title: Open3D Visualization Tools
+        link: github.com/MinkyunSeo/Open3D-Visualization
+        # link_text: Project Website
+        additional_links:
+          - title:  MinkyunSeo/Open3D-Visualization
+            icon: fab fa-github
+            url: github.com/MinkyunSeo/Open3D-Visualization
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Ongoing Projiect (To be updated)
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center; margin-bottom: 0;">
+            <img src="images/o3d/pcd-transform.png" width="40%">
+            <img src="images/o3d/2scene-tsne-feature-visualization.png" width="40%">
+            <img src="images/o3d/inlier-outlier.png" width="40%">
+            <img src="images/o3d/partial-viz.png" width="40%">
+          </div>
+          <br>
 
 
   # - title: A Little More About Me
