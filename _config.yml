@@ -219,7 +219,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Ongoing Projiect (To be updated)
+          Ongoing Project (To be updated)
         description: | # this will include new lines to allow paragraphs
           <div style="text-align: center; margin-bottom: 0;">
             <img src="images/o3d/pcd-transform.png" width="40%">
