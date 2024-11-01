@@ -151,7 +151,9 @@ content:
           Project at SNU course "Smart Construction Technology"
         description: | # this will include new lines to allow paragraphs
           <div style="text-align: center;">
-            <img src="images/SNU28Dong.gif" width="60%"> <br>
+            <video width="60%" controls>
+            <source src="images/snu28dong.mp4" type="video/mp4">
+            </video>
           </div>
           <br>
       - layout: top-middle
