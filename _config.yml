@@ -137,6 +137,24 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Drone based 3D reconstruction of SNU Lecture Hall
+        # link: github.com/MinkyunSeo/Avatar-Texture-Enhancement
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  MinkyunSeo/Avatar-Texture-Enhancement
+        #     icon: fab fa-github
+        #     url: github.com/MinkyunSeo/Avatar-Texture-Enhancement
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Project at SNU course "Smart Construction Technology"
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center;">
+            <img src="images/SNU28Dong.gif" width="60%"> <br>
+          </div>
+          <br>
+      - layout: top-middle
         title: Avatar Texture Enhancement via 3D Patch-wise SSIM Loss
         link: github.com/MinkyunSeo/Avatar-Texture-Enhancement
         # link_text: Project Website
