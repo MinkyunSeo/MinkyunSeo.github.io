@@ -226,7 +226,7 @@ content:
           </div>
           <br>
 
-  - title: Experience # Title for the section
+  - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top
@@ -242,12 +242,14 @@ content:
           </div>
           Visual & Geometric Intelligence Laboratory (Prof. Jaesik Park) at SNU<br>
           • Dec 2023 - Present<br>
-          • Working on 3D semantic segmentation
+          • Working on enhancing Geometric Feature Generalizability in point cloud registration <br>
+          • Developed 5+ registration datasets using TSDF-based reconstruction and ray-traced LiDAR simulation <br>
+          • Created a pipeline for learning general geometric features from data collected across diverse environments and acquisition methods
           <br>
           <br>
           AIoT Laboratory (Prof. Hyung-Sin Kim) at SNU<br>
           • Jun 2023 - Sep 2023<br>
-          • Worked on Adaptive vision sensing: Real-time camera parameter control to enhance model performance
+          • Contributed to early stage research on Covariate Shifts in Environment and Sensor Domain <br>
 
       - layout: top
         title: Presidental Security Service
