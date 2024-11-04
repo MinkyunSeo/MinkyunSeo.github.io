@@ -50,14 +50,14 @@ about_profile_image: images/myprofile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Minkyun Seo. I am an undergraduate student at <a href="https://en.snu.ac.kr/" target="_blank" style="color: #2e2e2e; font-weight: bold; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Seoul National University</a>. <br><br>
   I'm double-majoring in <span style="font-weight: bold;">Computer Science and Engineering</span> and <span style="font-weight: bold;">Architecture Engineering</span>. <br>
-  This interdisciplinary background has sparked my deep interest in 3D Vision. <br>
+
+  Throughout my studies, I have become increasingly focused on leveraging advancements in AI to transform how we model and interact with spaces. Recognizing that while many fields have seen rapid AI-driven productivity gains, space modeling remains relatively underdeveloped, I am driven to bridge this gap.  <br>
 
   My primary focus has two key objectives: <br>
   <ol style="font-size: 1.6em;">
     <li><strong>Accurately replicating real-world environments in virtual spaces</strong></li>
     <li><strong>Enabling the editing and reshaping of these virtual worlds</strong></li>
   </ol>
-  <br>
   <img src="https://img.shields.io/badge/Interests-Computer Vision(3D)-ffa500" height="22" />
 
 content:
@@ -154,7 +154,7 @@ content:
         title: Department Office Chatbot
         quote: >
           This chatbot is designed to answer inquiries for department office staff based on university regulations. <br>
-          This project won 2nd place at FriendliAI Hackathon. <br>
+          This project won 2nd place at FriendliAI LLM Hackathon. <br>
 
         description: | # this will include new lines to allow paragraphs
           <div style="text-align: center;">
@@ -284,27 +284,46 @@ content:
             <img src="images/sjsh_logo.png" alt="SJSH logo" height="85"/>
           </div>
 
-  - title: Honors & awards # Title for the section
+  - title: Honors & Awards # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top
+        title: National Excellence Scholarship (Full-ride)
+        caption: 2021 - 2024
+        sub_title: Issued by South Korea Government
+      - layout: top
+        title: Academic Excellence Scholarship
+        caption: 2019 - 2021, 2024 - Present
+        sub_title: Issued by Seoul National University
+        description: | # this will include new lines to allow paragraphs
+          Including full-ride and partial scholarship
       - layout: top
         title: Grand prize at SNU Creative Design Fair
         caption: 2023
         sub_title: Issued by Seoul National University
         description: | # this will include new lines to allow paragraphs
           SNU Creative Design Fair is an annual competition where engineering enthusiasts showcase <br>
-          • Developed PlayEye, a toy for preventing pediatric myopia. I was responsible for the software, handling computer vision, and embedded systems. <br>
-          • Visiting MWC 2024 (Barcelona)
+          • Awarded to the project ‘PlayEye: Toy for Preventing Child Myopia’
+          • Visited Mobile World Congress(MWC) 2024 in Barcelona, Spain
       - layout: top
-        title: National Excellence Scholarship (Full-ride)
-        caption: 2021 - 2024
-        sub_title: Issued by South Korea Government
+        title: Grand prize at National ICT Smart Device Contest
+        caption: 2023
+        sub_title: Issued by Ministry of science and ICT
+        description: | # this will include new lines to allow paragraphs
+          • Awarded to the project ‘PlayEye: Toy for Preventing Child Myopia’
       - layout: top
-        title: Academic Excellence Scholarship (Full-ride)
-        caption: 2019 - 2021
+        title: Second prize at FriendliAI LLM Hackathon
+        caption: 2023
+        sub_title: Issued by FriendliAI
+        description: | # this will include new lines to allow paragraphs
+          • Awarded to the project ‘Department Office Chatbot’
+      - layout: top
+        title: Second prize at SNU Ambient AI Competition
+        caption: 2023
         sub_title: Issued by Seoul National University
         description: | # this will include new lines to allow paragraphs
-          Initially received partial funding, full-ride since 2020.
+          • Awarded to the project ‘YOCO: You Only Cook Once’
+
 
   # - title: A Little More About Me
   #   layout: text
