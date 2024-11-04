@@ -48,11 +48,133 @@ linkedin_username: minkyun-seo
 # about_title: About Me
 about_profile_image: images/myprofile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Minkyun and I am a passionate and self-motivated undergraduate student dedicated to achieving excellence in every project I undertake. I am eager to identify challenges inherent in the world and establish a value chain that not only tackles these issues but also fosters positive contributions to the broader community.
-  <br> <br>
-  <img src="https://img.shields.io/badge/Interests-Computer Vision(3D), Deep Learning-ffa500" height="22" />
+  Hi, my name's Minkyun Seo. I am an undergraduate student at <a href="https://en.snu.ac.kr/" target="_blank" style="color: #2e2e2e; font-weight: bold; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Seoul National University</a>. <br><br>
+  I'm double-majoring in <span style="font-weight: bold;">Computer Science and Engineering</span> and <span style="font-weight: bold;">Architecture Engineering</span>. <br>
+  This interdisciplinary background has sparked my deep interest in 3D Vision. <br>
+
+  My primary focus has two key objectives: <br>
+  <ol style="font-size: 1.6em;">
+    <li><strong>Accurately replicating real-world environments in virtual spaces</strong></li>
+    <li><strong>Enabling the editing and reshaping of these virtual worlds</strong></li>
+  </ol>
+  <br>
+  <img src="https://img.shields.io/badge/Interests-Computer Vision(3D)-ffa500" height="22" />
 
 content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Drone based 3D reconstruction of SNU Lecture Hall
+        quote: >
+          Project at SNU course "Smart Construction Technology"
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center;">
+            <video width="60%" controls>
+            <source src="images/snu28dong.mp4" type="video/mp4">
+            </video>
+          </div>
+          <br>
+      - layout: top-middle
+        title: Avatar Texture Enhancement via 3D Patch-wise SSIM Loss
+        link: github.com/MinkyunSeo/Avatar-Texture-Enhancement
+        # link_text: Project Website
+        additional_links:
+          - title:  MinkyunSeo/Avatar-Texture-Enhancement
+            icon: fab fa-github
+            url: github.com/MinkyunSeo/Avatar-Texture-Enhancement
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Project at SNU graduate course "Deep Learning: A Statistical Perspective"
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center; margin-bottom: 0;">
+            <img src="images/avatar/patch_sampling.png" width="50%">
+            <img src="images/avatar/PATD_visualization.png" width="30%"> <br>
+          </div>
+          <div style="text-align: center;">
+            <img src="images/avatar/summary_all.png" width="40%"> <br>
+          </div>
+          <br>
+      - layout: top-middle
+        title: PlayEye:Toy for Preventing Child Myopia
+        link: github.com/SNU-EyeFi/PlayEye
+        # link_text: Project Website
+        additional_links:
+          - title:  SNU-EyeFi/PlayEye
+            icon: fab fa-github
+            url: github.com/SNU-EyeFi/PlayEye
+        quote: >
+          PlayEye is a toy designed to prevent pediatric myopia by naturally encouraging eye movement through play.<br>
+          PlayEye won grand prize at SNU Creative Design Fair
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center;">
+            <div style="display: inline-block; vertical-align: top; margin-right: 10px;">
+              <img src="images/playeye/product.png" width="480px"> 
+            </div>
+            <div style="display: inline-block; vertical-align: top;">
+              <video width="200px" controls>
+                <source src="images/playeyeDemo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <br><br>
+          </div>
+          <br>
+      - layout: top-middle
+        title: YOCO:You Only Cook Once
+        link: github.com/SNU-YOCO/YOCO
+        # link_text: Project Website
+        additional_links:
+          - title:  SNU-YOCO/YOCO
+            icon: fab fa-github
+            url: github.com/SNU-YOCO/YOCO
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          YOCO is a cooking AI based on the Unbiased teacher v2 network. It assists users in cooking by predicting the doneness of ingredients. <br>
+          YOCO won 2nd place at SNU Ambient AI Competition.
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center;">
+            <img src="https://user-images.githubusercontent.com/43427380/222368809-683b0c2e-0aca-4f7e-ac1e-eb8eef6e51d1.png" width="60%">
+          </div>
+
+          <table style="width: 60%; margin-left:auto; margin-right:auto; border-collapse: collapse;">
+            <tr style="padding: 0;">
+              <td colspan="3" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/pancake_raw.gif" width="140px"></td>
+              <td colspan="3" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/egg_cooked.gif" width="140px"></td>
+              <td colspan="4" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_overcooked.gif" width="180px"></td>
+              <td colspan="4" rowspan="2" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/full.gif" width="260px"></td>
+            </tr>
+            <tr style="padding: 0;">
+              <td colspan="5" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_raw.gif" width="240px"></td>
+              <td colspan="5" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_cooked.gif" width="240px"></td>
+            </tr>
+          </table>
+      - layout: top-middle
+        title: Open3D Visualization Tools
+        link: github.com/MinkyunSeo/Open3D-Visualization
+        # link_text: Project Website
+        additional_links:
+          - title:  MinkyunSeo/Open3D-Visualization
+            icon: fab fa-github
+            url: github.com/MinkyunSeo/Open3D-Visualization
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Ongoing Project (To be updated)
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center; margin-bottom: 0;">
+            <img src="images/o3d/pcd-transform.png" width="40%">
+            <img src="images/o3d/2scene-tsne-feature-visualization.png" width="40%">
+            <img src="images/o3d/inlier-outlier.png" width="40%">
+            <img src="images/o3d/partial-viz.png" width="40%">
+          </div>
+          <br>
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -132,123 +254,6 @@ content:
         sub_title: Issued by Seoul National University
         description: | # this will include new lines to allow paragraphs
           Initially received partial funding, full-ride since 2020.
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Drone based 3D reconstruction of SNU Lecture Hall
-        # link: github.com/MinkyunSeo/Avatar-Texture-Enhancement
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  MinkyunSeo/Avatar-Texture-Enhancement
-        #     icon: fab fa-github
-        #     url: github.com/MinkyunSeo/Avatar-Texture-Enhancement
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Project at SNU course "Smart Construction Technology"
-        description: | # this will include new lines to allow paragraphs
-          <div style="text-align: center;">
-            <video width="60%" controls>
-            <source src="images/snu28dong.mp4" type="video/mp4">
-            </video>
-          </div>
-          <br>
-      - layout: top-middle
-        title: Avatar Texture Enhancement via 3D Patch-wise SSIM Loss
-        link: github.com/MinkyunSeo/Avatar-Texture-Enhancement
-        # link_text: Project Website
-        additional_links:
-          - title:  MinkyunSeo/Avatar-Texture-Enhancement
-            icon: fab fa-github
-            url: github.com/MinkyunSeo/Avatar-Texture-Enhancement
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Project at SNU graduate course "Deep Learning: A Statistical Perspective"
-        description: | # this will include new lines to allow paragraphs
-          <div style="text-align: center; margin-bottom: 0;">
-            <img src="images/avatar/patch_sampling.png" width="50%">
-            <img src="images/avatar/PATD_visualization.png" width="30%"> <br>
-          </div>
-          <div style="text-align: center;">
-            <img src="images/avatar/summary_all.png" width="40%"> <br>
-          </div>
-          <br>
-      - layout: top-middle
-        title: PlayEye:Toy for Preventing Child Myopia
-        link: github.com/SNU-EyeFi/PlayEye
-        # link_text: Project Website
-        additional_links:
-          - title:  SNU-EyeFi/PlayEye
-            icon: fab fa-github
-            url: github.com/SNU-EyeFi/PlayEye
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          PlayEye won grand prize at SNU Creative Design Fair
-        description: | # this will include new lines to allow paragraphs
-          <div style="text-align: center;">
-            <img src="images/playeye/product.png" width="50%"> <br> <br>
-          </div>
-          <br>
-      - layout: top-middle
-        title: YOCO:You Only Cook Once
-        link: github.com/SNU-YOCO/YOCO
-        # link_text: Project Website
-        additional_links:
-          - title:  SNU-YOCO/YOCO
-            icon: fab fa-github
-            url: github.com/SNU-YOCO/YOCO
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          YOCO is a cooking AI based on the Unbiased teacher v2 network. It assists users in cooking by predicting the doneness of ingredients. <br>
-          YOCO won 2nd place at SNU Ambient AI Competition.
-        description: | # this will include new lines to allow paragraphs
-          <div style="text-align: center;">
-            <img src="https://user-images.githubusercontent.com/43427380/222368809-683b0c2e-0aca-4f7e-ac1e-eb8eef6e51d1.png" width="60%">
-          </div>
-
-          <table style="width: 60%; margin-left:auto; margin-right:auto; border-collapse: collapse;">
-            <tr style="padding: 0;">
-              <td colspan="3" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/pancake_raw.gif" width="140px"></td>
-              <td colspan="3" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/egg_cooked.gif" width="140px"></td>
-              <td colspan="4" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_overcooked.gif" width="180px"></td>
-              <td colspan="4" rowspan="2" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/full.gif" width="260px"></td>
-            </tr>
-            <tr style="padding: 0;">
-              <td colspan="5" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_raw.gif" width="240px"></td>
-              <td colspan="5" align="center" style="border: 1px solid #ddd;"><img src="images/yoco/bacon_cooked.gif" width="240px"></td>
-            </tr>
-          </table>
-      - layout: top-middle
-        title: Open3D Visualization Tools
-        link: github.com/MinkyunSeo/Open3D-Visualization
-        # link_text: Project Website
-        additional_links:
-          - title:  MinkyunSeo/Open3D-Visualization
-            icon: fab fa-github
-            url: github.com/MinkyunSeo/Open3D-Visualization
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Ongoing Project (To be updated)
-        description: | # this will include new lines to allow paragraphs
-          <div style="text-align: center; margin-bottom: 0;">
-            <img src="images/o3d/pcd-transform.png" width="40%">
-            <img src="images/o3d/2scene-tsne-feature-visualization.png" width="40%">
-            <img src="images/o3d/inlier-outlier.png" width="40%">
-            <img src="images/o3d/partial-viz.png" width="40%">
-          </div>
-          <br>
-
 
   # - title: A Little More About Me
   #   layout: text
