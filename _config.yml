@@ -107,15 +107,46 @@ content:
             url: github.com/SNU-EyeFi/PlayEye
         quote: >
           PlayEye is a toy designed to prevent pediatric myopia by naturally encouraging eye movement through play.<br>
-          PlayEye won grand prize at SNU Creative Design Fair
+          The entire hardware and software were developed from scratch, and I was responsible for the software part. <br><br>
+          PlayEye won the grand prize at the "SNU Creative Design Fair" and received a travel grant to attend MWC 2024 in Barcelona.<br>
+
         description: | # this will include new lines to allow paragraphs
           <div style="text-align: center;">
             <div style="display: inline-block; vertical-align: top; margin-right: 10px;">
-              <img src="images/playeye/product.png" width="480px"> 
+              <img src="images/playeye/product.png" width="480px">
             </div>
             <div style="display: inline-block; vertical-align: top;">
               <video width="200px" controls>
                 <source src="images/playeyeDemo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+              <div style="display: inline-block; vertical-align: top;">
+              <video width="200px" controls>
+                <source src="images/playeyeDemo2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <br><br>
+          </div>
+          <br>
+      - layout: top-middle
+        title: Department Office Chatbot
+        quote: >
+          This chatbot is designed to answer inquiries for department office staff based on university regulations. <br>
+          This project won 2nd place at FriendliAI Hackathon. <br>
+
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center;">
+            <div style="display: inline-block; vertical-align: top;">
+              <video width="400px" controls>
+                <source src="images/departmetChatbotDemo1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+              <div style="display: inline-block; vertical-align: top;">
+              <video width="400px" controls>
+                <source src="images/departmetChatbotDemo2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
