@@ -49,7 +49,7 @@ linkedin_username: minkyun-seo
 about_profile_image: images/myprofile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Minkyun Seo. I am an undergraduate student at <a href="https://en.snu.ac.kr/" target="_blank" style="color: #2e2e2e; font-weight: bold; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Seoul National University</a>. <br><br>
-  I'm double-majoring in <span style="font-weight: bold;">Computer Science and Engineering</span> and <span style="font-weight: bold;">Architecture Engineering</span>. <br>
+  I'm double-majoring in <span style="font-weight: bold;">Architecture Engineering</span> and <span style="font-weight: bold;">Computer Science and Engineering</span>. <br>
 
   Throughout my studies, I have become increasingly focused on leveraging advancements in AI to transform how we model and interact with spaces. Recognizing that while many fields have seen rapid AI-driven productivity gains, space modeling remains relatively underdeveloped, I am driven to bridge this gap.  <br>
 
