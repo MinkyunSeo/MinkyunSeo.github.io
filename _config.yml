@@ -66,6 +66,12 @@ content:
     content:
       - layout: top-middle
         title: Drone based 3D reconstruction of SNU Lecture Hall
+        link: github.com/MinkyunSeo/SNURecon
+        # link_text: Project Website
+        additional_links:
+          - title:  MinkyunSeo/SNURecon
+            icon: fab fa-github
+            url: github.com/MinkyunSeo/SNURecon
         quote: >
           Project at SNU course "Smart Construction Technology"
         description: | # this will include new lines to allow paragraphs
