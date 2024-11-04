@@ -240,7 +240,7 @@ content:
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Seoul_national_university_emblem.svg/1024px-Seoul_national_university_emblem.svg.png" alt="SNU logo" height="85"/> 
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Seoul_national_university_logotype.svg/1920px-Seoul_national_university_logotype.svg.png" alt="SNU logo" height="60"/>
           </div>
-          Visual & Geometric Intelligence Laboratory (Prof. Jaesik Park) at SNU<br>
+          Visual & Geometric Intelligence Laboratory (Prof. Jaesik Park)<br>
           • Working on enhancing Geometric Feature Generalizability in point cloud registration <br>
           • Developed 5+ registration datasets using TSDF-based reconstruction and ray-traced LiDAR simulation <br>
           • Created a pipeline for learning general geometric features from data collected across diverse environments and acquisition methods
@@ -256,7 +256,7 @@ content:
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Seoul_national_university_emblem.svg/1024px-Seoul_national_university_emblem.svg.png" alt="SNU logo" height="85"/> 
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Seoul_national_university_logotype.svg/1920px-Seoul_national_university_logotype.svg.png" alt="SNU logo" height="60"/>
           </div>
-          AIoT Laboratory (Prof. Hyung-Sin Kim) at SNU<br>
+          AIoT Laboratory (Prof. Hyung-Sin Kim)<br>
           • Contributed to early stage research on Covariate Shifts in Environment and Sensor Domain <br>
           • Set up ES Studio for generating out-of-distribution data across sensor and environmental variations <br>
           • Developed an evaluation codebase for conducting experiments on vision models
