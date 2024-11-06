@@ -320,7 +320,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           • Awarded to the project ‘Department Office Chatbot’
       - layout: top
-        title: Second prize at SNU Ambient AI Competition
+        title: Grand prize at SNU Ambient AI Competition
         caption: 2023
         sub_title: Issued by Seoul National University
         description: | # this will include new lines to allow paragraphs
