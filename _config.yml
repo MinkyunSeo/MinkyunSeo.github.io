@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
   My primary focus has two key objectives: <br>
   <ol style="font-size: 1.6em;">
     <li><strong>Accurately replicating real-world environments in virtual spaces</strong></li>
-    <li><strong>Enabling the editing and reshaping of these virtual worlds</strong></li>
+    <li><strong>Enabling the editing and reshaping of these 3D spaces</strong></li>
   </ol>
   <img src="https://img.shields.io/badge/Interests-Computer Vision(3D)-ffa500" height="22" />
 
@@ -88,11 +88,8 @@ content:
           Adapted TSDF method and implemented synthetic LiDAR <br>
         description: | # this will include new lines to allow paragraphs
           <div style="text-align: center;">
-            <img src="images/pairgen/indoor.png" width="60%"> <br>
-          </div>
-          <br>
-          <div style="text-align: center;">
-            <img src="images/pairgen/lidarsim.png" width="60%"> <br>
+            <img src="images/pairgen/indoor.png" width="45%">
+            <img src="images/pairgen/lidarsim.png" width="45%"> <br>
           </div>
           <br>
       - layout: top-middle
@@ -114,7 +111,7 @@ content:
             <img src="images/avatar/PATD_visualization.png" width="25%"> <br>
           </div>
           <div style="text-align: center;">
-            <img src="images/avatar/summary_all.png" width="40%"> <br>
+            <img src="images/avatar/summary_all.png" width="30%"> <br>
           </div>
           <br>
       - layout: top-middle
