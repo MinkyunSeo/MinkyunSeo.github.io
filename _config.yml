@@ -108,10 +108,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           <div style="text-align: center; margin-bottom: 0;">
             <img src="images/avatar/patch_sampling.png" width="40%">
-            <img src="images/avatar/PATD_visualization.png" width="25%"> <br>
+            <img src="images/avatar/PATD.png" width="25%">
+            <br>
           </div>
           <div style="text-align: center;">
-            <img src="images/avatar/summary_all.png" width="30%"> <br>
+            <img src="images/avatar/summary_all.png" width="30%"><br>
           </div>
           <br>
       - layout: top-middle
