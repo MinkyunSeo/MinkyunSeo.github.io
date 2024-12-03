@@ -51,13 +51,16 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Minkyun Seo. I am an undergraduate student at <a href="https://en.snu.ac.kr/" target="_blank" style="color: #2e2e2e; font-weight: bold; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Seoul National University</a>. <br><br>
   I'm double-majoring in <span style="font-weight: bold;">Computer Science and Engineering</span> and <span style="font-weight: bold;">Architecture Engineering</span>. <br>
 
-  Throughout my studies, I have become increasingly focused on leveraging advancements in AI to transform how we model and interact with spaces. Recognizing that while many fields have seen rapid AI-driven productivity gains, space modeling remains relatively underdeveloped, I am driven to bridge this gap.  <br>
+  While recent advancements in generative models have revolutionized 2D design processes, 3D modeling has yet to benefit from these advancements fully. During my studies, I worked in parametric 3D modeling and often encountered repetitive tasks that required human intuition, making them difficult to automate. This sparked my interest in leveraging machine perception to transform these processes.
 
   My primary focus has two key objectives: <br>
   <ol style="font-size: 1.6em;">
     <li><strong>Accurately replicating real-world environments in virtual spaces</strong></li>
     <li><strong>Enabling the editing and reshaping of these 3D spaces</strong></li>
   </ol>
+
+  I am determined to redefine the way we design and interact with digital environments by building systems that can perceive and interpret the world as humans do
+
   <img src="https://img.shields.io/badge/Interests-Computer Vision(3D)-ffa500" height="22" />
 
 content:
