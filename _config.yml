@@ -63,7 +63,29 @@ about_content: | # this will include new lines to allow paragraphs
 
   <img src="https://img.shields.io/badge/Interests-Computer Vision(3D)-ffa500" height="22" />
 
+
 content:
+  - title: Pulbication # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: "BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes"
+        link: https://github.com/MIT-SPARK/BUFFER-X
+        # link_text: Project Website
+        additional_links:
+          - title:  BUFFER-X
+            icon: fab fa-github
+            url: https://github.com/MIT-SPARK/BUFFER-X
+          - title: Archive
+            icon: fas fa-book
+            url: https://arxiv.org/abs/2503.07940
+        quote: >
+          Minkyun Seo*, Hyungate Lim*, Kanghee Lee, Luca Carlone, Jaesik Park
+        description: | # this will include new lines to allow paragraphs
+          <div style="text-align: center;">
+            <img src="images/buffer-x/250228_Overview_v2.png" width="100%">
+          </div>
+          <br>
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
