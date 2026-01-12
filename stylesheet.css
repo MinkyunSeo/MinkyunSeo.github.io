@@ -134,7 +134,7 @@ span.highlight {
 
   body {
     margin: 0;
-    padding: 0;
+    padding: 0 16px;
   }
 
   table {
@@ -243,6 +243,28 @@ span.highlight {
   h2 + table td {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
+  }
+
+  ul.news-list {
+    text-align: left !important;
+    padding-left: 22px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  ul.news-list li {
+    text-align: left !important;
+  }
+
+  ul.scholarship-list {
+    text-align: left !important;
+    padding-left: 22px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  ul.scholarship-list li {
+    text-align: left !important;
   }
 
   table.edu-table td {
