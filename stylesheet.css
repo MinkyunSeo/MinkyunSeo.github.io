@@ -129,3 +129,126 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+@media screen and (max-width: 768px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  table {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  tr, td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  name {
+    font-size: 32px;
+  }
+
+  p, li, a {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  td[style*="text-align:right"] {
+    text-align: left !important;
+    margin-top: 6px;
+  }
+
+  /* ----------------------------- */
+  /* Header: photo above text */
+  /* ----------------------------- */
+  body > table > tbody > tr > td > table > tbody > tr {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  body > table > tbody > tr > td > table > tbody > tr > td {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+
+  body > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) {
+    order: 1 !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+
+  body > table > tbody > tr > td > table > tbody > tr > td:nth-child(1) {
+    order: 2 !important;
+  }
+
+  img.profile-photo {
+    width: 220px !important;
+    max-width: 70% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+    border-radius: 50% !important;
+  }
+
+  td[style*="max-width:40%"],
+  td[style*="width:40%"] {
+    text-align: center !important;
+  }
+
+  .intro-text {
+    text-align: left !important;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  /* ----------------------------- */
+  /* Research: image above title */
+  /* Requires: td.paper-image / td.paper-text in HTML */
+  /* ----------------------------- */
+  h2 + table tr {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  h2 + table td.paper-image {
+    order: 1 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 12px !important;
+  }
+
+  h2 + table td.paper-text {
+    order: 2 !important;
+    width: 100% !important;
+  }
+
+  h2 + table td.paper-image img {
+    max-width: 90% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+  /* Left-align Education section on mobile */
+  h2 + table td {
+    text-align: left !important;
+  }
+
+  /* Reduce excessive vertical spacing */
+  h2 + table td {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  table.edu-table td {
+    text-align: left !important;
+  }
+
+  table.edu-table td[style*="text-align:right"] {
+    text-align: left !important;
+  }
+}
